@@ -56,7 +56,6 @@ class YellowEllipse(QMainWindow, Ui_MainWindow):
 
     def paintEvent(self, event):
         if self.do_paint:
-            # Создаем объект QPainter для рисования
             self.qp = QPainter()
             # Начинаем процесс рисования
             self.qp.begin(self)
