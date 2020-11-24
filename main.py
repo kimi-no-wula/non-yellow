@@ -75,7 +75,6 @@ class YellowEllipse(QMainWindow, Ui_MainWindow):
         self.qp.drawEllipse(x, y, z, z)
 
 
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = YellowEllipse()
