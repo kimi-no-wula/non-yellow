@@ -5,7 +5,6 @@ from PyQt5.QtCore import Qt, QPoint
 from PyQt5.QtGui import QPainter, QColor, QPen
 from PyQt5.QtWidgets import QWidget, QApplication, QMainWindow
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
